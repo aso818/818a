@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>تنبيه وبيان</title>
+  <style>
+    :root {
+      --bg: #000;
+      --text: #fff;
+      --muted: #bfbfbf;
+      --accent: #ffd700;
+      --maxw: 850px;
+    }
+    html,body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Helvetica Neue", Arial, "Noto Naskh Arabic", sans-serif;
+      direction: rtl;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      overflow: hidden; /* يمنع النزول للأسفل */
+    }
+
+    .recipient-corner {
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: rgba(255,215,0,0.95);
+      background: rgba(255,255,255,0.02);
+      padding: 8px 12px;
+      border-radius: 10px;
+      border: 1px solid rgba(255,215,0,0.12);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+      z-index: 9999;
+      pointer-events: none;
+    }
+
+    .card {
+      max-width: var(--maxw);
+      width: 100%;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+      padding: 22px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(255,255,255,0.02);
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      margin: 0 0 10px 0;
+      font-size: 1.4rem;
+      color: var(--accent);
+    }
+    p.lead {
+      margin: 0 0 10px 0;
+      font-size: 0.95rem;
+      color: var(--text);
+      line-height: 1.5;
+    }
+    blockquote {
+      margin: 10px 0;
+      padding: 10px 14px;
+      border-right: 3px solid rgba(255,255,255,0.08);
+      color: var(--muted);
+      background: rgba(255,255,255,0.01);
+      border-radius: 6px;
+      line-height: 1.6;
+      font-size: 0.9rem;
+    }
+    .small {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    .final {
+      margin-top: 18px;
+      color: var(--accent);
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+    }
+    @media (max-width:600px){
+      .card { padding: 18px; }
+      h1 { font-size: 1.15rem; }
+      .recipient-corner { font-size: 1rem; top: 10px; left: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="recipient-corner" aria-hidden="true">
+   https://discord.gg/rru
+  </div>
+
+  <div class="card" role="region" aria-label="تنبيه وبيان">
+    <h1>تنبيه وبيان للحق</h1>
+
+    <p class="lead">السلام عليكم ورحمة الله وبركاته</p>
+
+    <blockquote>
+      قال الله تعالى: <br>
+      <strong>«وَلَا تَأْكُلُوا أَمْوَالَكُمْ بَيْنَكُمْ بِالْبَاطِلِ»</strong> <br>
+      (البقرة: 188)
+    </blockquote>
+
+    <p class="lead">
+      نوجه هذا التنبيه والتحذير للجميع حول: <strong>خالد المطيري – A-01</strong>.<br>
+      للأسف، هناك أشخاص دفعوا مبالغ كدعم وظلّوا من ثم بُندوا من السيرفر وتُركوا بدون حقوقهم.
+      هذا تصرف غير مقبول وهو ظلم وتصرّف يفتقر إلى الأمانة.
+    </p>
+
+    <blockquote>
+      عن النبي ﷺ: <br>
+      <strong>«من غشّنا فليس منا»</strong> <br>
+      (رواه مسلم)
+    </blockquote>
+
+    <p class="lead">
+      ⚠️ تنبيه: لا تتعاملوا مع هذا الشخص بالمال ولا تثقوا بوعوده حتى تُرد الحقوق لأصحابها.
+      المال الحرام لا بركة فيه، وعلى كل ذي حق أن يطالب بحقه بالطرق المشروعة.
+    </p>
+
+    <blockquote>
+      قال تعالى: <br>
+      <strong>«فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ، وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ»</strong> <br>
+      (الزلزلة: 7-8)
+    </blockquote>
+
+    <p class="small">
+      نصيحة: يا خالد، ردّ الحقوق وتب إلى الله قبل فوات الأوان.
+      والرجاء من الإخوة الكرام استخدام القنوات الرسمية للمطالبة بحقوقهم إن لزم الأمر.
+    </p>
+
+    <p class="final">
+      ✊ الحق لا يضيع ما دام في مطالب به.
+     <p class="final"> الهاك المحترم : شملان البلوي
+     <p class="final">  https://discord.gg/rru
+    </p>
+  </div>
+</body>
+</html>
